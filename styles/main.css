@@ -134,6 +134,7 @@ header .NAME-1 button {
 .section-1 .box-icons {
     display: flex;
     justify-content: space-around;
+    margin-top: 40px;
 }
 .section-1 .box-icons li i {
     font-size: 30px;
@@ -154,6 +155,21 @@ header .NAME-1 button {
 }
 .box-icons .child4 {
     background-color: lawngreen;
+}
+
+.section-2 .NAME-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    gap: 15px;
+}
+.section-2 .NAME-3 h1 {
+    border-bottom: 3px solid black;
+}
+.section-2 .NAME-3 h4 {
+    color: gray;
+    font-weight: 400;
 }
 
 
