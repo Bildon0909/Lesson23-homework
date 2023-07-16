@@ -30,14 +30,14 @@ header {
     background-position: center;
 }
 
-.parent-icons {
+.parent-icons-1 {
     display: flex;
     justify-content: center;
     gap: 25px;
     padding-top: 30px;
 }
 
-.parent-icons li i {
+.parent-icons-1 li i {
     padding: 10px 10px;
     background-color: white;
     border-radius: 20px;
@@ -82,7 +82,7 @@ header nav ul .orange {
     border-top: 3px solid orange;
 }
 
-header .NAME {
+header .NAME-1 {
     display: flex;
     align-items: center;
     margin-top: 150px;
@@ -91,20 +91,69 @@ header .NAME {
     height: 200px;
 }
 
-header .NAME h1 {
+header .NAME-1 h1 {
     border-bottom: 3px solid white;
     padding-top: 20px;
     color: white;
 }
 
-header .NAME h4 {
+header .NAME-1 h4 {
     color: white;
+    font-weight: 400;
 }
 
-header .NAME button {
+header .NAME-1 button {
     padding: 10px 10px;
     background-color: darkorange;
     color: white;
     font-weight: 600;
     border-radius: 5px;
 }
+
+.section-1 .parent-icons-2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.section-1 .NAME-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    gap: 15px;
+}
+.section-1 .NAME-2 h1 {
+    border-bottom: 3px solid black;
+}
+.section-1 .NAME-2 h4 {
+    color: gray;
+    font-weight: 400;
+}
+.section-1 .box-icons {
+    display: flex;
+    justify-content: space-around;
+}
+.section-1 .box-icons li i {
+    font-size: 30px;
+    height: 200px;
+    width: 200px;
+    line-height: 200px;
+    text-align: center;
+    color: white;
+}
+.box-icons .child1 {
+    background-color: aquamarine;
+}
+.box-icons .child2 {
+    background-color: darkorange;
+}
+.box-icons .child3 {
+    background-color: blue;
+}
+.box-icons .child4 {
+    background-color: lawngreen;
+}
+
+
